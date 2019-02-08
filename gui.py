@@ -11,7 +11,10 @@ from kivy.factory import Factory
 from kivy.config import Config
 from kivy.utils import platform
 from kivy.uix.screenmanager import ScreenManager, Screen
+from kivy.logger import Logger
 from os import listdir
+import xml.etree
+import xml.etree.ElementTree
 import os
 import metadata
 kv_path = "./kv/"
@@ -107,7 +110,7 @@ class OpenVideo(Button, HoverBehavior):
         self._popup.open()
 
     def load(self, path, filename):
-        OpenVideo.handle_file(filename)
+        OpenVideo.handle_file(str(filename[0]))
         self.dismiss_popup()
 
     def save(self, path, filename):
@@ -119,12 +122,14 @@ class OpenVideo(Button, HoverBehavior):
         print("Left")
     def handle_file(filename):
         #app= App.get_running_app()
-        Header.set_title(str(filename[0]))
+        Header.set_title(filename)
         
-        width, height = metadata.get_dimensions(filename[0])
+        width, height = metadata.get_dimensions(filename)
         VideoPanel.set_screen('VideoPreview')
-        VideoPanel.preview(str(filename[0]))
-
+        VideoPanel.preview(filename)
+        xml = metadata.parse_mpeg4(filename)
+        for child in xml:
+            Logger.info("XML: {0}: {1}".format(child.tag,child.text))
     pass
 class MetadataPanel(GridLayout):
     pass
@@ -175,7 +180,9 @@ class MainApp(App):
         self.title = 'VR Metadata'
         return Container()
     def on_dropfile(self, window, file_path):
-        print(file_path)
+        file_path = file_path.decode('utf-8')
+        Logger.info('File drop: '+file_path)
+        OpenVideo.handle_file(file_path)
         return
     
 Factory.register('root', cls=Container)

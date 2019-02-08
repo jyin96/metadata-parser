@@ -21,32 +21,24 @@ def parse_mpeg4(input_file):
         mpeg4_file = mpeg.load(in_fh)
         uuid_box = None
         for element in mpeg4_file.contents:
-            
+            """
             if type(element) is mpeg.Box:
                 print(element.name)
             elif type(element) is mpeg.Container:
                 element.print_structure()
-
+            """
             
             if element.name == mpeg.constants.TAG_MOOV:
                 for moov_element in element.contents:
                     if moov_element.name == mpeg.constants.TAG_TRAK:
                         for trak_element in moov_element.contents:
-                            if trak_element.name == mpeg.constants.TAG_MDIA:
-                                for mdia_element in trak_element.contents:
-                                    if mdia_element.name == mpeg.constants.TAG_MINF:
-                                        for minf_element in mdia_element.contents:
-                                            if isinstance(minf_element,mpeg.Box):
-                                                print(minf_element.name)
-                                                print_box(in_fh,minf_element)
                             if trak_element.name == mpeg.constants.TAG_UUID:
                                 uuid_box = trak_element
         if uuid_box.contents == None:
             in_fh.seek(uuid_box.content_start())
             id = in_fh.read(16)
             contents = in_fh.read(uuid_box.content_size - 16)
-            print(contents)
-            parsed_xml = xml.etree.ElementTree.XML(contents)
+            return xml.etree.ElementTree.XML(contents)
 def print_box(fh, box):
     fh.seek(box.content_start())
     #id = fh.read(16)
