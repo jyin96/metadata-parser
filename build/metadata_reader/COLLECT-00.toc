@@ -1,0 +1,989 @@
+([('metadata_reader.exe',
+   "F:\\Jeff's "
+   'Stuff\\python\\pytests\\build\\metadata_reader\\metadata_reader.exe',
+   'EXECUTABLE'),
+  ('metadata_reader.exe.manifest',
+   "F:\\Jeff's "
+   'Stuff\\python\\pytests\\build\\metadata_reader\\metadata_reader.exe.manifest',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\Scripts\\VCRUNTIME140.dll",
+   'BINARY'),
+  ('python36.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\Scripts\\python36.dll",
+   'BINARY'),
+  ('lib_arpack-.ZSFN7AZ4NRWSAUZTEZLC7L2IVIRDDNFR.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\lib_arpack-.ZSFN7AZ4NRWSAUZTEZLC7L2IVIRDDNFR.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libdcosqb.QRGA36MB6CFHWLQN6ETWARR4M4E6P3C2.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdcosqb.QRGA36MB6CFHWLQN6ETWARR4M4E6P3C2.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('pythoncom36.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\pywin32_system32\\pythoncom36.dll',
+   'BINARY'),
+  ('libslsqp_op.NNY57ZXZ43A4RH3YWFA7BKHP5PC2K3I5.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libslsqp_op.NNY57ZXZ43A4RH3YWFA7BKHP5PC2K3I5.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libdgamln.D35ZEOCATK4OZQSX5UEWEF62EM2ECCPX.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdgamln.D35ZEOCATK4OZQSX5UEWEF62EM2ECCPX.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libbispeu.5N2XSD7URZS4WTOSLTOG4DDMA4HGB46U.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libbispeu.5N2XSD7URZS4WTOSLTOG4DDMA4HGB46U.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libspecfun.BHLTWMBI4EYWDACZN4DQUESSDJRJNGEL.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libspecfun.BHLTWMBI4EYWDACZN4DQUESSDJRJNGEL.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libdqag.JBSUT27DU6KSWWLH5EAFVANLG5T4CPYH.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdqag.JBSUT27DU6KSWWLH5EAFVANLG5T4CPYH.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libwrap_dum.ASTX55GIE5U6BF4YKSWUU6TBMWRPJ2I4.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libwrap_dum.ASTX55GIE5U6BF4YKSWUU6TBMWRPJ2I4.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libdfft_sub.EUUS64YKL2TYSRFQAXG5LJ7DDSONRZOJ.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdfft_sub.EUUS64YKL2TYSRFQAXG5LJ7DDSONRZOJ.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libmvndst.FJYIV5KRHEB6IA4GIU6HFBYCEDXO3WN4.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libmvndst.FJYIV5KRHEB6IA4GIU6HFBYCEDXO3WN4.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libopenblas.BNVRK7633HSX7YVO2TADGR4A5KEKXJAW.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libopenblas.BNVRK7633HSX7YVO2TADGR4A5KEKXJAW.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('msvcp140.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\msvcp140.dll',
+   'BINARY'),
+  ('libdcsrch.I2AOPDCXAPDRFNPWY55H5UE7XZSU5CVN.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdcsrch.I2AOPDCXAPDRFNPWY55H5UE7XZSU5CVN.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('lib_test_fo.JF5HTWMUPBXWGAYEBVEJU3OZAHTSVKCT.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\lib_test_fo.JF5HTWMUPBXWGAYEBVEJU3OZAHTSVKCT.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libd_odr.5WODFRLNCKRTO3MK6J4XTXEHDB7GFDZ4.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libd_odr.5WODFRLNCKRTO3MK6J4XTXEHDB7GFDZ4.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libnnls.IXEEHJUCGHJL42YZEM6UIEMROJWXHMLJ.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libnnls.IXEEHJUCGHJL42YZEM6UIEMROJWXHMLJ.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libwrap_dum.CLCNYV3KUDVQF2VOOGW7JOOKWHJ2FDXT.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libwrap_dum.CLCNYV3KUDVQF2VOOGW7JOOKWHJ2FDXT.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libdop853.6TJTQZW3I3Q3QIDQHEOBEZKJ3NYRXI4B.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdop853.6TJTQZW3I3Q3QIDQHEOBEZKJ3NYRXI4B.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libgetbreak.WYF32CNQCVMHFKRVSHNE3EGBPQL7SWIB.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libgetbreak.WYF32CNQCVMHFKRVSHNE3EGBPQL7SWIB.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libvode.M2PR7ET5DWOC2TSRZM44MAX2MG4YDRX3.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libvode.M2PR7ET5DWOC2TSRZM44MAX2MG4YDRX3.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libbanded5x.WATOK6SFHTO5CTDVI6F7U7YE2ZN63L6D.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libbanded5x.WATOK6SFHTO5CTDVI6F7U7YE2ZN63L6D.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libcobyla2.JEGTSUUFJ7DFXWZN5PAYZTTLBDATC4WD.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libcobyla2.JEGTSUUFJ7DFXWZN5PAYZTTLBDATC4WD.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libansari.R6EA3HQP5KZ6TAXU4Y4ZVTRPT7UVA53Z.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libansari.R6EA3HQP5KZ6TAXU4Y4ZVTRPT7UVA53Z.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('lib_blas_su.2UNBVF3XUJ6LXUE74AWX6SW54UVZEM5P.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\lib_blas_su.2UNBVF3XUJ6LXUE74AWX6SW54UVZEM5P.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('liblbfgsb.LTROWG5MXPUSP7N2YCW3QUHJE37DB7K5.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\liblbfgsb.LTROWG5MXPUSP7N2YCW3QUHJE37DB7K5.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libdfitpack.KTCF3EOE66VRDKN45KBQA4VBAIS552IF.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdfitpack.KTCF3EOE66VRDKN45KBQA4VBAIS552IF.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libchkder.6HLXPVTQJEGRZGLI5DFRMNW3SS76BHP6.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libchkder.6HLXPVTQJEGRZGLI5DFRMNW3SS76BHP6.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libblkdta00.EBMXOKVWTYK6NSUJLSZFNQ6CEWS6SU3V.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libblkdta00.EBMXOKVWTYK6NSUJLSZFNQ6CEWS6SU3V.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('libdcosqb.K4J3XBR4PEETMRHZICUWW4LXG5UONZ34.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdcosqb.K4J3XBR4PEETMRHZICUWW4LXG5UONZ34.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('pywintypes36.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\pywin32_system32\\pywintypes36.dll',
+   'BINARY'),
+  ('libdet.YKP4TFVQQVNWGO5ZEH7E6CRNLZ42FK5D.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\extra-dll\\libdet.YKP4TFVQQVNWGO5ZEH7E6CRNLZ42FK5D.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('win32trace',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\win32\\win32trace.pyd',
+   'EXTENSION'),
+  ('win32ui',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\Pythonwin\\win32ui.pyd',
+   'EXTENSION'),
+  ('_multiprocessing',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_win32sysloader',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('win32com.shell.shell',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\win32comext\\shell\\shell.pyd',
+   'EXTENSION'),
+  ('win32wnet',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\win32\\win32wnet.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('select',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('win32api',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\lib\\site-packages\\win32\\win32api.pyd",
+   'EXTENSION'),
+  ('kivy.graphics.texture',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\texture.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.scissor_instructions',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\scissor_instructions.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.fbo',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\fbo.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.gl_instructions',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\gl_instructions.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.stencil_instructions',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\stencil_instructions.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.vertex_instructions',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\vertex_instructions.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.context_instructions',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\context_instructions.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.instructions',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\instructions.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL._imagingtk',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PIL\\_imagingtk.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL._webp',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PIL\\_webp.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('_distutils_findvs',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_distutils_findvs.pyd',
+   'EXTENSION'),
+  ('numpy.core._multiarray_tests',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\core\\_multiarray_tests.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('scipy._lib._fpumode',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\_lib\\_fpumode.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('scipy._lib._ccallback_c',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\_lib\\_ccallback_c.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('scipy._lib.messagestream',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\scipy\\_lib\\messagestream.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.core.umath',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\core\\umath.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.core.multiarray',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\core\\multiarray.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32pdh',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\lib\\site-packages\\win32\\win32pdh.pyd",
+   'EXTENSION'),
+  ('numpy.random.mtrand',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\random\\mtrand.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.fft.fftpack_lite',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\fft\\fftpack_lite.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg._umath_linalg',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy.linalg.lapack_lite',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\linalg\\lapack_lite.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL._imaging',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PIL\\_imaging.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL._imagingft',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PIL\\_imagingft.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.core.image._img_sdl2',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\core\\image\\_img_sdl2.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.transformation',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\transformation.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.buffer',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\buffer.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.compiler',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\compiler.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.core.window._window_sdl2',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\core\\window\\_window_sdl2.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.svg',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\svg.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.tesselator',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\tesselator.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.core.audio.audio_sdl2',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\core\\audio\\audio_sdl2.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.cgl_backend.cgl_gl',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_gl.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32gui',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\lib\\site-packages\\win32\\win32gui.pyd",
+   'EXTENSION'),
+  ('kivy.weakproxy',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\weakproxy.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy._event',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\_event.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.shader',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\shader.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.lib.gstplayer._gstplayer',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\lib\\gstplayer\\_gstplayer.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy._clock',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\_clock.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.core.text.text_layout',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\core\\text\\text_layout.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.cgl_backend.cgl_glew',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_glew.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.opengl_utils',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\opengl_utils.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.vertex',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\vertex.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.vbo',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\vbo.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.opengl',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\opengl.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.core.window.window_info',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\core\\window\\window_info.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.cgl_backend.cgl_sdl2',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_sdl2.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.core.clipboard._clipboard_sdl2',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\core\\clipboard\\_clipboard_sdl2.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.cgl',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\cgl.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.core.text._text_sdl2',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\core\\text\\_text_sdl2.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.cgl_backend.cgl_debug',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_debug.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.cgl_backend.cgl_mock',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_mock.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32file',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\win32\\win32file.pyd',
+   'EXTENSION'),
+  ('kivy.graphics.context',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\graphics\\context.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('cv2.cv2',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\cv2\\cv2.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('kivy.properties',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\properties.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('mfc140u.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\Pythonwin\\mfc140u.dll',
+   'BINARY'),
+  ('libopenblas.CSRRD7HKRKC3T3YXA7VY7TAZGLSWDKW6.gfortran-win_amd64.dll',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\numpy\\.libs\\libopenblas.csrrd7hkrkc3t3yxa7vy7tazglswdkw6.gfortran-win_amd64.dll',
+   'BINARY'),
+  ('SDL2_image.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\share\\sdl2\\bin\\sdl2_image.dll",
+   'BINARY'),
+  ('SDL2.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\share\\sdl2\\bin\\sdl2.dll",
+   'BINARY'),
+  ('SDL2_mixer.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\share\\sdl2\\bin\\sdl2_mixer.dll",
+   'BINARY'),
+  ('glew32.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\share\\glew\\bin\\glew32.dll",
+   'BINARY'),
+  ('SDL2_ttf.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\share\\sdl2\\bin\\sdl2_ttf.dll",
+   'BINARY'),
+  ('libfreetype-6.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\share\\sdl2\\bin\\libfreetype-6.dll",
+   'BINARY'),
+  ('zlib1.dll',
+   "F:\\Jeff's Stuff\\python\\fauxdov\\share\\sdl2\\bin\\zlib1.dll",
+   'BINARY'),
+  ('base_library.zip',
+   "F:\\Jeff's "
+   'Stuff\\python\\pytests\\build\\metadata_reader\\base_library.zip',
+   'DATA'),
+  ('kivy_install\\data\\settings_kivy.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\settings_kivy.json',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-64.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-64.png',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\minimal.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\minimal.css',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\header.vs',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\glsl\\header.vs',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\monitor.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\monitor.cpython-36.pyc',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\titlepage.tex',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\latex2e\\titlepage.tex',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\s5defs.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\s5defs.txt',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.fs',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\glsl\\default.fs',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isodia.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isodia.txt',
+   'DATA'),
+  ('docutils\\writers\\pep_html\\template.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\pep_html\\template.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\template.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\template.txt',
+   'DATA'),
+  ('kivy_install\\modules\\recorder.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\recorder.py',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsa.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsa.txt',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\default.tex',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\latex2e\\default.tex',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-512.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-512.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\console.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\console.cpython-36.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\keybinding.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\keybinding.cpython-36.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\recorder.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\recorder.cpython-36.pyc',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isocyr2.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isocyr2.txt',
+   'DATA'),
+  ('kivy_install\\modules\\console.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\console.py',
+   'DATA'),
+  ('lib2to3\\Grammar3.6.7.final.0.pickle',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\lib\\lib2to3\\Grammar3.6.7.final.0.pickle',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\html4css1\\html4css1.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\html4css1\\html4css1.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomfrk.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomfrk.txt',
+   'DATA'),
+  ('kivy_install\\modules\\screen.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\screen.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\inspector.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\inspector.cpython-36.pyc',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\de.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\keyboards\\de.json',
+   'DATA'),
+  ('lib2to3\\PatternGrammar3.6.7.final.0.pickle',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\lib\\lib2to3\\PatternGrammar3.6.7.final.0.pickle',
+   'DATA'),
+  ('kivy_install\\modules\\inspector.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\inspector.py',
+   'DATA'),
+  ('docutils\\writers\\html4css1\\template.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\html4css1\\template.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\blank.gif',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\blank.gif',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\print.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\print.css',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\plain.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\plain.css',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaulttheme-0.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\images\\defaulttheme-0.png',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsr.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsr.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\de_CH.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\keyboards\\de_CH.json',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomopf.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomopf.txt',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Italic.ttf',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-Italic.ttf',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   'DATA'),
+  ('kivy_install\\data\\images\\image-loading.gif',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\images\\image-loading.gif',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isotech.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isotech.txt',
+   'DATA'),
+  ('kivy_install\\modules\\_webdebugger.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\_webdebugger.py',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\iepngfix.htc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\iepngfix.htc',
+   'DATA'),
+  ('kivy_install\\data\\images\\background.jpg',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\images\\background.jpg',
+   'DATA'),
+  ('kivy_install\\data\\images\\testpattern.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\images\\testpattern.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\joycursor.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\joycursor.cpython-36.pyc',
+   'DATA'),
+  ('docutils\\writers\\pep_html\\pep.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\pep_html\\pep.css',
+   'DATA'),
+  ('docutils\\writers\\odf_odt\\styles.odt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\odf_odt\\styles.odt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-16.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-16.png',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlalias.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlalias.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsn.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsn.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk1.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk1.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\DejaVuSans.ttf',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\fonts\\DejaVuSans.ttf',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaultshape.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\images\\defaultshape.png',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-128.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-128.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\__init__.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\__init__.cpython-36.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\cursor.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\cursor.cpython-36.pyc',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isolat2.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isolat2.txt',
+   'DATA'),
+  ('kivy_install\\data\\style.kv',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\style.kv',
+   'DATA'),
+  ('kivy_install\\modules\\cursor.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\cursor.py',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\xelatex.tex',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\latex2e\\xelatex.tex',
+   'DATA'),
+  ('kivy_install\\modules\\joycursor.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\joycursor.py',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\fr_CH.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\keyboards\\fr_CH.json',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-48.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-48.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\screen.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\screen.cpython-36.pyc',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlextra.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlextra.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk3.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk3.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\README.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\README.txt',
+   'DATA'),
+  ('kivy_install\\modules\\touchring.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\touchring.py',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\en_US.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\keyboards\\en_US.json',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-32.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-32.png',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isolat1.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isolat1.txt',
+   'DATA'),
+  ('kivy_install\\data\\images\\cursor.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\images\\cursor.png',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isopub.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isopub.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaulttheme.atlas',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\images\\defaulttheme.atlas',
+   'DATA'),
+  ('lib2to3\\tests\\data\\README',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\lib\\lib2to3\\tests\\data\\README',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isocyr1.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isocyr1.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isobox.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isobox.txt',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\azerty.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\keyboards\\azerty.json',
+   'DATA'),
+  ('kivy_install\\modules\\__init__.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__init__.py',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomscr.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomscr.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\math.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\math.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk2.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk2.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-256.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-256.png',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\_webdebugger.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\_webdebugger.cpython-36.pyc',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.vs',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\glsl\\default.vs',
+   'DATA'),
+  ('kivy_install\\modules\\webdebugger.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\webdebugger.py',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Bold.ttf',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-Bold.ttf',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   'DATA'),
+  ('Include\\pyconfig.h',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\Include\\pyconfig.h',
+   'DATA'),
+  ('kivy_install\\modules\\keybinding.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\keybinding.py',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\glsl\\default.png',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-24.png',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\logo\\kivy-icon-24.png',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamso.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamso.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk4.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk4.txt',
+   'DATA'),
+  ('lib2to3\\PatternGrammar.txt',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\lib\\lib2to3\\PatternGrammar.txt',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\qwerty.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\keyboards\\qwerty.json',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Regular.ttf',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-Regular.ttf',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\touchring.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\touchring.cpython-36.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\webdebugger.cpython-36.pyc',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\__pycache__\\webdebugger.cpython-36.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\qwertz.json',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\keyboards\\qwertz.json',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\RobotoMono-Regular.ttf',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\fonts\\RobotoMono-Regular.ttf',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isonum.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isonum.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   'DATA'),
+  ('lib2to3\\Grammar.txt',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\lib\\lib2to3\\Grammar.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\header.fs',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\glsl\\header.fs',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsc.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsc.txt',
+   'DATA'),
+  ('kivy_install\\modules\\monitor.py',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\modules\\monitor.py',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\README.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\README.txt',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-BoldItalic.ttf',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\kivy\\data\\fonts\\Roboto-BoldItalic.ttf',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsb.txt',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsb.txt',
+   'DATA')],)

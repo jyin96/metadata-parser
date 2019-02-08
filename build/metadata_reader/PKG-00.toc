@@ -1,0 +1,58 @@
+("F:\\Jeff's Stuff\\python\\pytests\\build\\metadata_reader\\PKG-00.pkg",
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   "F:\\Jeff's Stuff\\python\\pytests\\build\\metadata_reader\\PYZ-00.pyz",
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\theglimpsegroup\\AppData\\Local\\Programs\\Python\\Python36\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_kivy',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_kivy.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_win32comgenpy',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_win32comgenpy.py',
+   'PYSOURCE'),
+  ('pyi_rth_gstreamer',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_gstreamer.py',
+   'PYSOURCE'),
+  ('gui', "F:\\Jeff's Stuff\\python\\pytests\\gui.py", 'PYSOURCE'),
+  ('metadata_reader.exe.manifest',
+   "F:\\Jeff's "
+   'Stuff\\python\\pytests\\build\\metadata_reader\\metadata_reader.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False)
