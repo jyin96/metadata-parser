@@ -1,6 +1,8 @@
+#:kivy 1.10.0
 #: import ScreenManager kivy.uix.screenmanager.ScreenManager
 #: import Screen kivy.uix.screenmanager.ScreenManager
 #: import Video kivy.uix.video.Video
+#: import Window kivy.core.window
 #: import WipeTransition kivy.uix.screenmanager.WipeTransition
 #: import FadeTransition kivy.uix.screenmanager.FadeTransition
 <Container>:
@@ -28,23 +30,22 @@
             valign: 'middle'
             halign: 'left'
     BoxLayout:
+        id: content_panel
         orientation: "horizontal"
         VideoPanel:
             id: video_panel
-
-
-
-            
         MetadataPanel:
-            canvas.before:
-                Color:
-                    rgba: [x/255 for x in (30,31,38,255)]
-                Rectangle:
-                    pos: self.pos
-                    size: self.size
+            id: metadata_panel
+            size_hint: (None, None)
             width: 300
-            size_hint: (None, 1)
-            size_hint_min_x: 500
+            do_scroll_x: False
+            
+            GridLayout:
+                id: list_content
+                cols: 1
+                size_hint_y: None
+                height: metadata_panel.height
+
     Footer:
         canvas.before:
             Color:
@@ -67,8 +68,23 @@
         OpenVideo
     VideoPreview:
         id: video_preview
+        
         name: 'VideoPreview'
         manager: 'video_panel'
         Image:
             id: video_preview_player
+
+<MetadataBox>:
+    height: 75
+    size_hint: (1, None)
+    orientation: "vertical"
+    Label:
+        id: key
+        valign: 'middle'
+        halign: 'left'
+    Button:
+        id: value
+        valign: 'middle'
+        halign: 'left'
+
             

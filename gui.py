@@ -2,6 +2,8 @@ from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
+from kivy.uix.scrollview import ScrollView
+from kivy.uix.recycleview import RecycleView
 from kivy.properties import BooleanProperty, ObjectProperty
 from kivy.lang import Builder
 from kivy.core.window import Window
@@ -11,12 +13,82 @@ from kivy.factory import Factory
 from kivy.config import Config
 from kivy.utils import platform
 from kivy.uix.screenmanager import ScreenManager, Screen
+from kivy.uix.dropdown import DropDown
 from kivy.logger import Logger
 from os import listdir
 import xml.etree
 import xml.etree.ElementTree
 import os
 import metadata
+
+"""
+Mapping from multiple recognized names to an attribute type:
+    Spherical
+    Projection type
+    Stereo mode
+
+    Degrees is an abstract attribute
+
+Ignored fields:
+    stitched
+    stitching software
+    source count
+
+Get the video dimensions using MediaInfo
+    width, height
+
+If CroppedAreaLeftPixels... is undefined, degrees is assumed to be 360
+If CroppedAreaLeftPixels is non-zero, degrees is probably 180? We can calculate it as 
+
+Templates:
+Unknown:
+    Spherical: False
+Mono 360:
+"""
+
+
+class MetadataType:
+    def __init__(self, field_name, options):
+        self.field_name = field_name
+        self.options = options
+        pass
+#Guesses parse the metadata, and return <guess>, [options] 
+def guess_spherical(metadata):
+    options = [True, False]
+    if (metadata == None) or not metadata['Spherical']:
+        disable_spherical_options()
+        return False, options
+
+    return True, [True, False]
+
+def handle_spherical_changed(selection):
+    pass
+
+def guess_projection(metadata):
+    options = ['Equirectangular','Fisheye','Cubemap']
+    if 'ProjectionType' not in metadata:
+        return 'Unknown', options
+    return metadata['ProjectionType'], options 
+def handle_projection_changed(selection):
+    pass
+def guess_degrees(metadata):
+    options = [360,180]
+    if ('CroppedAreaLeftPixels' not in metadata) or metadata['CroppedAreaLeftPixels'] == 0:
+        return 360, options
+    
+    return 180, options
+    pass
+def handle_degrees_changed(selection):
+    pass
+
+    #if metadata 
+
+
+#disable the other 
+def disable_spherical_options():
+    return
+
+Window.clearcolor = [x/255 for x in (35, 40, 48, 1)]
 kv_path = "./kv/"
 Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
 #Config.set('graphics','minimum_height',700)
@@ -125,17 +197,74 @@ class OpenVideo(Button, HoverBehavior):
         Header.set_title(filename)
         
         width, height = metadata.get_dimensions(filename)
+        Logger.info("Width: "+str(width))
+        Logger.info("Height: "+str(height))
         VideoPanel.set_screen('VideoPreview')
         VideoPanel.preview(filename)
         xml = metadata.parse_mpeg4(filename)
+        metadata_list, metadata_dict = metadata.parse_xml(xml)
+        MetadataPanel.populate(metadata_list, metadata_dict)
+        if xml == None:
+            return
         for child in xml:
-            Logger.info("XML: {0}: {1}".format(child.tag,child.text))
+            Logger.info("XML: {0}: {1}".format(child.tag.split("}")[-1],child.text))
     pass
-class MetadataPanel(GridLayout):
+dropdowns = {}
+class MetadataPanel(ScrollView):
+    def populate(metadata_list, metadata_dict):
+        panel = app.root.ids.list_content
+        panel.clear_widgets()
+        Logger.info("Running: Populate")
+        is_spherical, spherical_options = guess_spherical(metadata_dict)
+        Logger.info("Spherical: "+str(is_spherical))
+
+        if is_spherical:
+            projection, projection_options = guess_projection(metadata_dict)
+            Logger.info("Projection: "+str(projection))
+
+        #layout = BoxLayout(orientation='vertical')
+        #layout.add_widget(MetadataBox(key="Test1", value="value1"))
+        dropdowns = {}
+        #for item in metadata_list:
+        #    panel.add_widget(MetadataBox(key=item[0], value=item[1]))
+        panel.add_widget(MetadataBox(key="Spherical", value=is_spherical,options=spherical_options))
+        
+        panel.bind(minimum_height=panel.setter("height"))
+        app.root.ids.metadata_panel.height = app.root.ids.video_panel.height
+        
+        #app.root.ids.metadata_panel.height = Window.height
+    
     pass
+class MetadataBox(BoxLayout):
+    def __init__(self, **kwargs):
+        super(MetadataBox, self).__init__()
+        
+        if "key" in kwargs.keys():
+            self.ids.key.text = str(kwargs["key"])
+        else:
+            self.ids.key.text = "DefaultKey"
+        if "value" in kwargs.keys():
+            self.ids.value.text = str(kwargs["value"])
+        else:
+            self.ids.value.text = "DefaultValue"
+
+        key = self.ids.key.text
+        dropdown = DropDown()
+        dropdowns[key] = dropdown
+        options = kwargs["options"]
+        #for loop
+        for option in options:
+            btn = Button(text=str(option), size_hint_y = None, height = 44, border=(10,0,10,0), background_color=(.3,.3,.3,1))
+            btn.bind(on_release=lambda btn: dropdown.select(btn.text))
+            dropdowns[key].add_widget(btn)
+
+        value_button = self.ids.value
+        value_button.bind(on_release=dropdown.open)
+        dropdown.bind(on_select=lambda instance, x: setattr(value_button,'text',x))
+        
+
 class Footer(BoxLayout):
     pass
-
 class LoadDialog(FloatLayout):
     def __init__(self, **kwargs):
         super(LoadDialog, self).__init__(**kwargs)
@@ -190,6 +319,7 @@ Factory.register('LoadDialog', cls=LoadDialog)
 Factory.register('SaveDialog', cls=SaveDialog)
 
 if __name__ == "__main__":
+
     app = MainApp()
     app.run()
 """

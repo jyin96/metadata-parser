@@ -1,0 +1,22 @@
+#:kivy 1.10.0
+
+<AppScreenManager>:
+    Menu:
+
+<Menu>:
+    view: view
+
+    BoxLayout:
+        orientation: 'vertical'
+
+        BoxLayout:
+            size: (64, 64)
+            size_hint: (1, None)
+
+            Button:
+                text: "Menu"
+                color: (1, 1, 1, 1)
+                background_color: (.3, .3, .3, 1)
+
+        ScrollView:
+            id: view

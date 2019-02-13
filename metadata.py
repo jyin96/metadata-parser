@@ -8,6 +8,8 @@ from kivy.graphics.texture import Texture
 
 def get_first_frame(url):
     vidcap = cv2.VideoCapture(url)
+    total_frames = vidcap.get(7)
+    vidcap.set(1,100)
     success, frame = vidcap.read()
     if (success):
         # convert it to texture
@@ -34,11 +36,35 @@ def parse_mpeg4(input_file):
                         for trak_element in moov_element.contents:
                             if trak_element.name == mpeg.constants.TAG_UUID:
                                 uuid_box = trak_element
+        if uuid_box == None: 
+            return None
         if uuid_box.contents == None:
             in_fh.seek(uuid_box.content_start())
             id = in_fh.read(16)
             contents = in_fh.read(uuid_box.content_size - 16)
             return xml.etree.ElementTree.XML(contents)
+        
+def parse_xml(xml):
+    if xml == None:
+        return None, None
+    output = []
+    output_dict = {}
+    for child in xml:
+        tag = child.tag.split("}")[-1]
+        output.append((child.tag.split("}")[-1],child.text))
+        output_dict[tag] = child.text
+    return output, output_dict
+def print_structure(input_file):
+    with open(input_file,"rb") as in_fh:
+        mpeg4_file = mpeg.load(in_fh)
+        uuid_box = None
+        for element in mpeg4_file.contents:
+            
+            if type(element) is mpeg.Box:
+                print(element.name)
+            elif type(element) is mpeg.Container:
+                element.print_structure()
+            
 def print_box(fh, box):
     fh.seek(box.content_start())
     #id = fh.read(16)
@@ -58,10 +84,12 @@ def get_dimensions(input_file):
     for track in media_info.tracks:
         if track.track_type == 'Video':
             track = track.to_data()
+            print(track)
             return track['width'], track['height']
     #mediainfo = MediaInfoDLL3.MediaInfo()
 
 if __name__ == "__main__":
+    print_structure('360 mono theta unstitched.MP4')
     pass
 #parse_mpeg4("Peach Lake Sunrise 3k mono.mp4")
 #get_dimensions("Peach Lake Sunrise 3k mono.mp4")
