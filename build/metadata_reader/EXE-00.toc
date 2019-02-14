@@ -36,6 +36,10 @@
    "F:\\Jeff's "
    'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_kivy.py',
    'PYSOURCE'),
+  ('pyi_rth_gstreamer',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_gstreamer.py',
+   'PYSOURCE'),
   ('pyi_rth_multiprocessing',
    "F:\\Jeff's "
    'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
@@ -48,10 +52,6 @@
    "F:\\Jeff's "
    'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_win32comgenpy.py',
    'PYSOURCE'),
-  ('pyi_rth_gstreamer',
-   "F:\\Jeff's "
-   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_gstreamer.py',
-   'PYSOURCE'),
   ('gui', "F:\\Jeff's Stuff\\python\\pytests\\gui.py", 'PYSOURCE'),
   ('metadata_reader.exe.manifest',
    "F:\\Jeff's "
@@ -60,7 +60,7 @@
  [],
  False,
  False,
- 1549655938,
+ 1550173601,
  [('run.exe',
    "F:\\Jeff's "
    'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',

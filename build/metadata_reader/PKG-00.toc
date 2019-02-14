@@ -32,6 +32,10 @@
    "F:\\Jeff's "
    'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_kivy.py',
    'PYSOURCE'),
+  ('pyi_rth_gstreamer',
+   "F:\\Jeff's "
+   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_gstreamer.py',
+   'PYSOURCE'),
   ('pyi_rth_multiprocessing',
    "F:\\Jeff's "
    'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_multiprocessing.py',
@@ -43,10 +47,6 @@
   ('pyi_rth_win32comgenpy',
    "F:\\Jeff's "
    'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_win32comgenpy.py',
-   'PYSOURCE'),
-  ('pyi_rth_gstreamer',
-   "F:\\Jeff's "
-   'Stuff\\python\\fauxdov\\lib\\site-packages\\PyInstaller\\loader\\rthooks\\pyi_rth_gstreamer.py',
    'PYSOURCE'),
   ('gui', "F:\\Jeff's Stuff\\python\\pytests\\gui.py", 'PYSOURCE'),
   ('metadata_reader.exe.manifest',

@@ -9,7 +9,8 @@ from kivy.graphics.texture import Texture
 def get_first_frame(url):
     vidcap = cv2.VideoCapture(url)
     total_frames = vidcap.get(7)
-    vidcap.set(1,100)
+    frame_target = min(100, total_frames/2)
+    vidcap.set(1,frame_target)
     success, frame = vidcap.read()
     if (success):
         # convert it to texture
@@ -85,9 +86,14 @@ def get_dimensions(input_file):
         if track.track_type == 'Video':
             track = track.to_data()
             print(track)
-            return track['width'], track['height']
+            return track['width'], track['height'], track['frame_rate'], track['internet_media_type']
     #mediainfo = MediaInfoDLL3.MediaInfo()
-
+def get_track_info(input_file):
+    media_info = MediaInfo.parse(input_file)
+    for track in media_info.tracks:
+        if track.track_type == 'Video':
+            track = track.to_data()
+            return track
 if __name__ == "__main__":
     print_structure('360 mono theta unstitched.MP4')
     pass

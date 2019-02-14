@@ -49,7 +49,7 @@
     Footer:
         canvas.before:
             Color:
-                rgba: [x/255 for x in 	(116,111,145,255)]
+                rgba: [x/255 for x in 	(30,31,38,255)]
             Rectangle:
                 pos: self.pos
                 size: self.size
@@ -58,6 +58,14 @@
         text: 'Testing'
         height: 75
         size_hint: (1, None)
+        Button:
+            id: save_button
+            text: "Save"
+            pos_hint: {"right":.97,"center_y":.5}
+            size_hint: (None, None)
+            height: 40
+            background_color: (.5,.5,.5,1)
+            #on_release: display.show_save()
 
 <VideoPanel>:
     transition: FadeTransition()
@@ -65,7 +73,8 @@
         id: open_video
         name: 'OpenVideo'
         manager: 'video_panel'
-        OpenVideo
+        OpenVideo:
+            id: open_video_utils
     VideoPreview:
         id: video_preview
         
@@ -73,11 +82,14 @@
         manager: 'video_panel'
         Image:
             id: video_preview_player
+            
 
 <MetadataBox>:
     height: 75
     size_hint: (1, None)
     orientation: "vertical"
+    padding_x: 30
+
     Label:
         id: key
         valign: 'middle'
@@ -87,4 +99,23 @@
         valign: 'middle'
         halign: 'left'
 
+
             
+<ReadOnlyMetadata>:
+    height: 60
+    size_hint: (1, None)
+    orientation: "vertical"
+    
+    Label:
+        id: key
+        valign: 'middle'
+        halign: 'left'
+        text_size: self.size
+        bold: True
+    Label:
+        id: value
+        valign: 'middle'
+        halign: 'left'
+        text_size: self.size
+        padding_x: 30
+
