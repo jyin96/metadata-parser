@@ -1,0 +1,80 @@
+#:kivy 1.10.0
+#:import Factory kivy.factory.Factory
+#:import lv kivy.uix.listview
+#:import la kivy.adapters.listadapter
+<OpenVideo>:
+    on_release: root.show_load()
+    Image:
+        source: "./res/choose_file_bg.png"
+        allow_stretch: True
+        keep_ratio: False
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+        size: (500,400)
+    Label:
+        text: "Select or drag video here"
+        font_size: 20
+        center_x: self.parent.center_x
+        center_y: self.parent.center_y
+<VideoPlayer>:
+
+<LoadDialog>:
+    drives_list: drives_list
+    filechooser: filechooser
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        BoxLayout:
+            id: drive_switcher
+            size_hint: (1, None)
+            ListView:
+                id: drives_list
+                orientation: 'horizontal'
+                adapter:
+                    la.ListAdapter(data=root.get_win_drives(), selection_mode='single', allow_empty_selection=False, cls=lv.ListItemButton)
+                         
+
+
+        FileChooserListView:
+            id: filechooser
+            filters: ['*.mp4','.mov']
+            
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                on_release: root.cancel()
+
+            Button:
+                text: "Load"
+                on_release: root.load(filechooser.path, filechooser.selection)
+            
+
+<SaveDialog>:
+    text_input: text_input
+    BoxLayout:
+        size: root.size
+        pos: root.pos
+        orientation: "vertical"
+        FileChooserListView:
+            id: filechooser
+            on_selection: text_input.text = self.selection and self.selection[0] or ''
+
+        TextInput:
+            id: text_input
+            size_hint_y: None
+            height: 30
+            multiline: False
+
+        BoxLayout:
+            size_hint_y: None
+            height: 30
+            Button:
+                text: "Cancel"
+                on_release: root.cancel()
+
+            Button:
+                text: "Save"
+                on_release: root.save(filechooser.path, text_input.text)

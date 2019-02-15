@@ -1,0 +1,121 @@
+#:kivy 1.10.0
+#: import ScreenManager kivy.uix.screenmanager.ScreenManager
+#: import Screen kivy.uix.screenmanager.ScreenManager
+#: import Video kivy.uix.video.Video
+#: import Window kivy.core.window
+#: import WipeTransition kivy.uix.screenmanager.WipeTransition
+#: import FadeTransition kivy.uix.screenmanager.FadeTransition
+<Container>:
+    display: display
+    rows: 3
+    Header:
+        canvas.before:
+            Color:
+                rgba: [x/255 for x in (30,31,38,255)]
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        orientation: 'horizontal'
+        id: header
+        size_hint: (1, None)
+        height: 75
+        padding: [20,0,0,0]
+        Label:
+            id: header_title
+            size_hint: (1, 1)
+            font_size: dp(30)
+            text: 'Select a File'
+            top: header.top
+            text_size: self.size
+            valign: 'middle'
+            halign: 'left'
+    BoxLayout:
+        id: content_panel
+        orientation: "horizontal"
+        VideoPanel:
+            id: video_panel
+        MetadataPanel:
+            id: metadata_panel
+            size_hint: (None, None)
+            width: 300
+            do_scroll_x: False
+            
+            GridLayout:
+                id: list_content
+                cols: 1
+                size_hint_y: None
+                height: metadata_panel.height
+
+    Footer:
+        canvas.before:
+            Color:
+                rgba: [x/255 for x in 	(30,31,38,255)]
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        id: display
+        font_size: dp(50)
+        text: 'Testing'
+        height: 75
+        size_hint: (1, None)
+        Button:
+            id: save_button
+            text: "Save"
+            pos_hint: {"right":.97,"center_y":.5}
+            size_hint: (None, None)
+            height: 40
+            background_color: (.5,.5,.5,1)
+            #on_release: display.show_save()
+
+<VideoPanel>:
+    transition: FadeTransition()
+    OpenVideoScreen:
+        id: open_video
+        name: 'OpenVideo'
+        manager: 'video_panel'
+        OpenVideo:
+            id: open_video_utils
+    VideoPreview:
+        id: video_preview
+        
+        name: 'VideoPreview'
+        manager: 'video_panel'
+        Image:
+            id: video_preview_player
+            
+
+<MetadataBox>:
+    height: 75
+    size_hint: (1, None)
+    orientation: "vertical"
+    padding_x: 30
+
+    Label:
+        id: key
+        valign: 'middle'
+        halign: 'left'
+    Button:
+        id: value
+        valign: 'middle'
+        halign: 'left'
+
+
+            
+<ReadOnlyMetadata>:
+    height: 60
+    size_hint: (1, None)
+    orientation: "vertical"
+    
+    Label:
+        id: key
+        valign: 'middle'
+        halign: 'left'
+        text_size: self.size
+        bold: True
+    Label:
+        id: value
+        valign: 'middle'
+        halign: 'left'
+        text_size: self.size
+        padding_x: 30
+
